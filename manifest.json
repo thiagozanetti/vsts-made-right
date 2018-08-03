@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "VSTS Made Right!",
+  "version":"0.1.0",
+  "description":"A collection of interface hacks to improve VSTS usability",
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "matches": [
+        "https://*.visualstudio.com/*"
+      ]
+    }
+  ]
+}

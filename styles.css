@@ -1,0 +1,24 @@
+div.navigation.flex.flex-noshrink.region-navigation {
+  width: 200px;
+}
+
+div.vss-Splitter--pane-fixed {
+  width: 200px !important;
+}
+
+div.vss-Splitter--pane-fixed > div > div.right-pane-header > div.right-pane-header-title-row > h3 {
+  font-size: 11pt;
+}
+
+div.vss-Splitter--pane-fixed > div > div.right-pane-header > div.right-pane-header-description {
+  font-size: 8pt;
+}
+
+.visual-progress-total>.visual-progress-current, .visual-progress-current>.visual-progress-total {
+  height: 12px !important;
+}
+
+.backlogs-default-tool-panel-container, 
+.capacity-pane-progress-group-heading {
+  font-size: 9pt;
+}
